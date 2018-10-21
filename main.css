@@ -5,6 +5,8 @@ hr { height: 0; border: none; border-top: 1px solid #dedede; }
 ul, ol { list-style: none; }
 h1,h2,h3,h4,h5,h6{ font-weight: normal; }
 .clearfix::after { content: ''; display: block; clear: both; }
+body,form,div,ul,ol,li,h1,h2,h3,h4,h5,h6,table,tr,th,td,p,input,dl,dt,dd,ul,ol,li,input,textarea { font-family:"Microsoft YaHei"!important;}
+body{ font-family:'微软雅黑','Microsoft YaHei';}
 
 [data-x].active{
   outline: 10px solid red;
@@ -78,7 +80,8 @@ h1,h2,h3,h4,h5,h6{ font-weight: normal; }
   padding: 5px 10px;
 }
 
-.topNavBar .logo { font-size: 24px; font-family: 'Arial Black'; padding-top: 3px; padding-bottom: 4px; }
+
+.topNavBar .logo { font-size: 24px; padding-top: 3px; padding-bottom: 4px; }
 .topNavBar .logo .rs { margin-right: 4px; color: #e6686a; }
 .topNavBar .logo .card { color: #9a9da2; }
 .banner { height: 515px; background-image: url(./img/rs-cover.jpg); background-position: center center; background-size: cover; }
@@ -112,7 +115,7 @@ body > main .downloadResume:hover {
   box-shadow: 0px 4px 13px 0px rgba(0, 0, 0, 0.2);
 }
 
-.selfIntroduction { max-width: 940px; margin-left: auto; margin-right: auto; text-align: center; font-family: kai; line-height: 1.8; font-size: 18px; }
+.selfIntroduction { max-width: 940px; margin-left: auto; margin-right: auto; text-align: center;  line-height: 1.8; font-size: 18px; }
 
 section.skills,
 section.portfolio{ max-width: 940px; margin-left: auto; margin-right: auto; margin-top: 60px; }
@@ -143,3 +146,11 @@ section.portfolio > nav .bar.state-2 .bar-inner{ margin-left: 65px; width: 50px;
 section.portfolio > nav .bar.state-3 .bar-inner{ margin-left: 140px; width: 96px; } 
 section.portfolio .works{ position: relative; } 
 section.portfolio .works > .big, section.portfolio .works > .small { position: absolute; }
+section.portfolio .swiper-container{
+
+  width: 888px;
+  height: 666px;
+  
+  }
+section.portfolio h2{margin-bottom: 16px;}
+.icon { width: 1em; height: 1em; vertical-align: -0.15em; fill: currentColor; overflow: hidden; }
